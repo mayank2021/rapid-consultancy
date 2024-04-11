@@ -7,3 +7,4 @@ export { default as Header } from "./header";
 export { default as PageLayout } from "./layout";
 export { default as ProfileMenu } from "./ProfileMenu";
 export { default as TableComponent } from "./TableComponent";
+export { default as ChipComp } from "./ChipComp";

@@ -43,7 +43,7 @@ export const timesheetData = [
     weekEnding: "29-Nov-2023",
     totalHours: 42,
     submittedAt: "02-Dec-2023 11:15 AM",
-    status: "approved",
+    status: "rejected",
   },
   {
     name: "David Lee",

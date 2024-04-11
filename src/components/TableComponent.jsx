@@ -14,6 +14,7 @@ import IconButton from "@mui/material/IconButton";
 import KeyboardArrowLeft from "@mui/icons-material/KeyboardArrowLeft";
 import KeyboardArrowRight from "@mui/icons-material/KeyboardArrowRight";
 import { TableHead } from "@mui/material";
+import { ChipComp } from "./";
 
 function TablePaginationActions(props) {
   const theme = useTheme();
@@ -108,7 +109,9 @@ export default function TableComponent({ rows, head }) {
               <TableCell align="right" sx={{ minWidth: 120 }}>
                 {row.submittedAt}
               </TableCell>
-              <TableCell align="right">{row.status}</TableCell>
+              <TableCell align="right">
+                <ChipComp label={row.status} />
+              </TableCell>
             </TableRow>
           ))}
         </TableBody>
